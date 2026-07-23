@@ -1,15 +1,10 @@
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>HeroDefensePlatform</title>
-
-    <meta name="description"
-          content="A modular JavaScript game engine and studio for building hero defense games.">
-
+    <meta name="description" content="A modular JavaScript game engine and studio for building hero defense games.">
     <link rel="icon" href="favicon.ico">
 
     <!-- CSS -->
@@ -18,126 +13,76 @@
     <link rel="stylesheet" href="css/game.css">
     <link rel="stylesheet" href="css/ui.css">
     <link rel="stylesheet" href="css/debug.css">
+    <script src="engine/main.js"></script>
 </head>
-
 <body>
-
 <main id="app">
-
     <div class="container">
-
-        <!-- ===================== -->
-        <!-- 왼쪽 -->
-        <!-- ===================== -->
         <section class="left-panel">
-
             <header>
-
-                <img src="assets/images/logo.svg"
-                     alt="HeroDefensePlatform Logo"
-                     class="logo">
-
+                <img src="assets/images/logo.svg" alt="HeroDefensePlatform Logo" class="logo">
                 <h1>HeroDefensePlatform</h1>
-
                 <p class="subtitle">
                     영웅 디펜스 게임 제작을 위한<br>
                     모듈형 JavaScript 게임 엔진 및 스튜디오
                 </p>
-
             </header>
-
             <section class="status">
-
                 <div class="card">
                     <h2>현재 버전</h2>
                     <p><strong>v0.0.4</strong></p>
                 </div>
-
                 <div class="card">
                     <h2>개발 상태</h2>
                     <p><strong>아키텍처 확정</strong></p>
                 </div>
-
             </section>
-
             <section class="description">
-
                 <p>
                     프로젝트의 디렉토리 구조와 전체 아키텍처가 확정되었습니다.
                 </p>
-
                 <p>
                     앞으로는 게임 엔진, 에디터, Pack,
                     Plugin 그리고 실제 게임 기능 구현을
                     중심으로 개발이 진행됩니다.
                 </p>
-
             </section>
-
             <section class="buttons">
-
                 <button onclick="location.href='game.html'">
                     🎮 게임 실행
                 </button>
-
                 <button disabled>
                     🛠 게임 스튜디오
                     <br>
                     <small>준비 중</small>
                 </button>
-
             </section>
-
         </section>
-
-
-        <!-- ===================== -->
-        <!-- 오른쪽 -->
-        <!-- ===================== -->
         <aside class="right-panel">
-
             <section class="launcher">
-
                 <h2>게임 런처</h2>
-
                 <div class="launcher-card">
-
                     <p class="launcher-title">
                         Hero Defense Engine
                     </p>
-
                     <p class="launcher-version">
                         엔진 버전 : v0.0.4
                     </p>
-
                     <p class="launcher-status">
                         개발 상태 : 초기 개발 단계
                     </p>
-
-                    <button class="launch-button"
-                            onclick="location.href='game.html'">
-
+                    <button class="launch-button" onclick="location.href='game.html'">
                         ▶ 게임 시작
-
                     </button>
-
                 </div>
-
             </section>
-
         </aside>
-
     </div>
-
     <footer>
-
         <p>HeroDefensePlatform</p>
         <p>Powered by JavaScript</p>
         <p>© 2026 HeroDefensePlatform</p>
-
     </footer>
-
 </main>
-
 </body>
 </html>
